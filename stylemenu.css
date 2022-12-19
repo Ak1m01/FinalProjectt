@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url("https://i.pinimg.com/564x/24/48/a0/2448a0ad4d19208426084421f93f7087.jpg");
+
+}
+.dinner_foods{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.menu_dinner{
+    background-color: white;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    margin-right: 120px;
+    margin-left: 120px;
+    font-family: 'Oswald';
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.dinner_foods_first{
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+}
+.dinner_foods_first div{
+    margin-left: 40px;
+}
+
+.dinner_foods img{
+    width: 330px;
+    height: 230px;
+}
+
+.name_of_food{
+    font-size: 25px;
+    color: white;
+}
+
+.ingredients{
+    color: white;
+    font-size: 18px;
+}
+.price_of_food{
+    text-align: right;
+    margin-right: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .menu_dinner{
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    margin-right: 100px;
+    margin-left: 50px;
+    border-radius: 15px;
+    margin-top: 30px;
+    }
+    .dinner_foods_first{
+        margin-bottom: 50px;
+        display: block;
+    }
+    .dinner_foods_first div{
+        margin-left: 10px;
+    }
+    
+    .dinner_foods img{
+        width: 250px;
+        height: 150px;
+    }
+    .price_of_food{
+    margin-right: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    }
+    
+}
